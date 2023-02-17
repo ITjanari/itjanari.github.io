@@ -1,0 +1,100 @@
+.text1 {
+  padding-bottom: 15px;
+  text-align: left;
+  font-family: 'Work Sans', 'sans-serif';
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 2em;
+} 
+
+.gallery img {
+  max-width: 100%; 
+  height: auto;
+}
+
+  
+  /*
+  .responsive {
+    padding: 15px 30px;
+    
+      neli pilti reas=25%, kolm pilti reas=33.33% (33.3333334 x 3 = 100%), kaks pilti reas=50% 
+  }
+  */
+  
+.background-colorGallery {
+  background-color: rgb(13, 13, 13); 
+  min-width: 280px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.ImageContainer {
+  padding: 50px 25px 150px;
+  max-width: 1100px;
+  margin: auto;
+  background-color: rgb(18, 18, 18);
+}
+
+
+.ImageDescription {
+  font-family: 'Work Sans', 'sans-serif';
+  color: rgba(245, 245, 245, 0.75);
+  text-align: left;
+  word-wrap: normal;
+  padding-top: 15px;
+  font-size: 1.15em;
+}
+
+.ExposureTime {
+  font-family: 'Work Sans', 'sans-serif';
+  color: rgb(245, 245, 245);
+  text-align: left;
+  word-wrap: normal;
+  padding-top: 15px;
+  font-size: 1.15em;
+}
+
+.BulletPoints {
+  font-family: 'Work Sans', 'sans-serif';
+  color: rgba(245, 245, 245, 0.75);
+  text-align: left;
+  word-wrap: normal;
+  padding-top: 15px;
+  font-size: 1.15em;
+  list-style-position: outside;
+  line-height: 1.6;
+}
+
+ 
+  
+@media only screen and (max-width: 643px) {
+  .text1 {
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Work Sans', 'sans-serif';
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+  } 
+}
+  
+@media only screen and (max-width: 500px) {
+  .text1 {
+    font-size: 1.4em;
+  } 
+}
+
+@media only screen and (max-width: 445px) {
+  .ImageDescription {
+    font-size: 0.9em;
+  }
+
+  .BulletPoints {
+    padding-top: 5px;
+    font-size: 0.9em;
+    line-height: 1.6;
+  }
+
+  .ExposureTime {
+    font-size: 1em;
+  }
+}
