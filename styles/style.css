@@ -5,16 +5,6 @@ body {
   position: relative;
 }
 
-
-.image-background-teleskoop2 {
-  background-repeat: no-repeat;
-  background-position: bottom;
-  height: 700px;
-  background-size: cover;
-  background-image: url(images/teleskoop2.png); 
-  min-width: 280px
-}
-
 .InvisibleBarrier {
   height: 250px;
 }
