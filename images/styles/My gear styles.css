@@ -1,0 +1,192 @@
+.image-background {
+    background-color: rgb(13, 13, 13); 
+    min-width: 280px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.MyGearContainer {
+    padding: 100px 100px 100px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgb(18, 18, 18);
+}
+
+
+.setupPilt {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin-left: 30px;
+}
+
+
+.setupText {
+    font-family: 'Work Sans', 'sans-serif';
+    color: rgba(245, 245, 245, 0.75);
+    font-weight: 400;
+    font-size: 1.5em;
+    display: inline-block;
+    width: 40%; /* ennem oli width: 47%; */
+    overflow: hidden;
+    line-height: 1.2;
+    margin-left: 20px;
+    white-space: pre-line; /* Space between sentences */
+}
+
+.bulletPoints {
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+/* Pealkiri */
+.textGallery {
+    font-family: 'Work Sans', 'sans-serif';
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    word-wrap: normal;
+    padding-top: 35px;
+    font-size: 4em;
+}
+
+@media only screen and (max-width: 333px) {
+    .textGallery {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 1262px) {
+    .setupText {
+        font-size: 1.35em;
+    }
+
+    .setupPilt {
+        width: 50%;
+    }
+
+    .MyGearContainer {
+        padding: 100px 70px 100px;
+        max-width: 1400px;
+    }
+}
+
+@media only screen and (max-width: 1079px) {
+    .setupText {
+        font-size: 1.2em;
+    }
+
+    .setupPilt {
+        width: 48%;
+        margin-left: 30px;
+    }
+
+    .MyGearContainer {
+        padding: 100px 35px 100px;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .setupText {
+        font-size: 1em;
+        margin: 0;
+    }
+
+    .setupPilt {
+        width: 50%;
+        margin-left: 15px;
+        
+    }
+
+    .MyGearContainer {
+        padding: 100px 30px 100px;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+    .setupText {
+    font-size: 1.1em;
+    width: 95%;
+    margin: 0;
+    line-height: 1.2em;
+    padding-left: 20px;
+    }
+
+    .setupPilt {
+        width: 100%;
+        margin-left: 0;
+        margin: 0;
+    }
+
+    .MyGearContainer {
+        padding: 50px 90px 20px;
+    }
+}
+
+@media only screen and (max-width: 535px) {
+    .setupText {
+        width: 94%;
+    }
+}  
+
+@media only screen and (max-width: 465px) {
+    .setupText {
+        font-size: 1.2em;
+        line-height: 1.2em;
+        width: 94%;
+        margin: 0;
+    }
+
+    .setupPilt {
+        width: 100%;
+    }
+
+    .MyGearContainer {
+        padding: 50px 35px 20px;
+    }
+}
+
+
+@media only screen and (max-width: 410px) {
+    .setupText {
+        font-size: 1em;
+        line-height: 1.2em;
+        width: 94%;
+        margin: 0;
+    }
+
+    .setupPilt {
+        width: 100%;
+    }
+
+    .MyGearContainer {
+        padding: 50px 30px 20px;
+    }
+}
+
+
+@media only screen and (max-width: 365px) {
+    .setupText {
+        font-size: 1em;
+        line-height: 1.2em;
+        width: 93%;
+        margin: 0;
+    }
+
+    .setupPilt {
+        width: 100%;
+    }
+
+    .MyGearContainer {
+        padding: 50px 22px 20px;
+    }
+}
+
+@media only screen and (max-width: 295px) {
+    .setupText {
+        width: 92%;
+    }
+}
