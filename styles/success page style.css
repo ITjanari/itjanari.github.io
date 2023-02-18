@@ -1,0 +1,53 @@
+.Container {
+    padding: 70px 50px 70px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(18, 18, 18);
+}
+
+.SuccessText {
+    font-family: 'Work Sans', 'sans-serif';
+    text-transform: none;
+    color: rgb(230, 230, 230);
+    font-weight: 700;
+    font-size: 7em;
+    text-align: left;
+    word-wrap: break-word;
+    margin: 0;
+}
+
+.SuccessTextSecond {
+    font-family: 'Work Sans', 'sans-serif';
+    text-transform: none;
+    color: rgb(230, 230, 230);
+    font-weight: 200;
+    font-size: 2.5em;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.image-background4 {
+    background-color: rgb(13, 13, 13); 
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+@media only screen and (max-width: 611px) {
+    .SuccessText {
+        font-size: 3em;
+    }
+
+    .SuccessTextSecond {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 416px) {
+    .SuccessText {
+        font-size: 2em;
+    }
+
+    .SuccessTextSecond {
+        font-size: 1.5em;
+    }
+}
