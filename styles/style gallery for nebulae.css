@@ -224,11 +224,6 @@
   
 @media screen and (max-width: 400px) {
   .textGallery {
-    font-size: 2.15em;
-    padding-top: 75px;
-  }
-
-  .textGalleryGALAXIES {
     font-size: 3em;
     padding-top: 75px;
   }

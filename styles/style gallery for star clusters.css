@@ -221,11 +221,6 @@
     padding-top: 75px;
   }
 
-  .textGalleryGALAXIES {
-    font-size: 3em;
-    padding-top: 75px;
-  }
-
   .responsive {
     width: 100%;
     padding: 10px 50px;
@@ -260,7 +255,7 @@
   background-repeat: no-repeat;
   background-position: center;
   min-width: 280px;
-  background-image: url("star cluster pictures/(Pealkiri Star Clusters) taust.png");
+  background-image: url("images/(Pealkiri Star Clusters) taust.png");
   height: 200px;
   border-radius: 0px;
   background-size: cover;

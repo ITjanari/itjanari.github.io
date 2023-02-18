@@ -506,3 +506,12 @@ li[role="none"],
 .fade-in-about-me-text.appear {
   opacity: 1;
 }
+
+.image-background-teleskoop2 {
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 700px;
+  background-size: cover;
+  background-image: url(images/teleskoop2.png); 
+  min-width: 280px
+}
