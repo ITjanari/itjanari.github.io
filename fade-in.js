@@ -4,7 +4,7 @@ const appears = document.querySelectorAll('.fade-in-about-me-text'); // "About m
 
 const appearOptions = {
     threshold: 1, 
-    rootMargin: "0px 0px -50px 0px" // Mida suurem on negatiivne arv, seda rohkem peab inimene alla liikuma, et näha animatsiooni
+    rootMargin: "0px 0px -30px 0px" // Mida suurem on negatiivne arv, seda rohkem peab inimene alla liikuma, et näha animatsiooni
 };
 
 // "About me" pealkiri
