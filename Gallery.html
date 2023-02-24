@@ -10,8 +10,55 @@
   <script src="./nav.js" type="module"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="styles/style Gallery.css">
-</head>    
+  <link rel="stylesheet" type="text/css" href="styles/loading screen.css">
+
+<script>
+  
+  window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
+
+  loader.classList.add("loader--hidden");
+
+  loader.addEventListener("transitionend", () => {
+    document.body.removeChild(loader);
+  });
+});
+
+</script>
+</head>  
 <body>
+
+<div class="loader">
+<!-- Loading screen -->
+<div class="solar-system">
+
+<!-- Kepler-62 -->
+<div class="f-orbit orbit">
+  <div class="f"></div>
+
+<div class="e-orbit orbit">
+  <div class="e"></div>
+
+<div class="d-orbit orbit">
+  <div class="d"></div>
+
+<div class="c-orbit orbit">
+  <div class="c"></div>
+
+<div class="b-orbit orbit">
+  <div class="b"></div>
+
+  <div class="k62"></div>
+
+
+</div>
+  </div>
+    </div>
+      </div>
+        </div>
+          </div>
+            </div>
+             
 
 <nav>
 
@@ -62,7 +109,7 @@
 
 <div class="GalleryTextContainer">
   <div class="ImageGalleryText">
-    Here are the objects sorted out by categories. I haven't got any clear skies to do imaging, so "nebulae" categorie is empty :(
+    Here are the objects sorted out by categories. !Nebulae categorie is empty for now!
   </div>
 
 <div class="border"></div>
@@ -70,7 +117,7 @@
 
 <div class="containerThree">
 
-  <button onclick="document.location='Nebulae gallery.html'" class="button button1">Nebulae</button>
+  <button onclick="document.location='Nebulae gallery.html'" class="button button1">...</button>
   <button onclick="document.location='Galaxies gallery.html'" class="button button2">Galaxies</button>
   <button onclick="document.location='Star clusters gallery.html'" class="button button3">Star Clusters</button>
   <button onclick="document.location='Solar system gallery.html'" class="button button4">Solar System</button>

@@ -10,6 +10,21 @@
   <script src="./nav.js" type="module"></script>
   <script src="./fade-in.js" type="module"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/loading screen.css">
+
+<script>
+  
+  window.addEventListener("load", () => {
+  const loader = document.querySelector(".loaderIndex");
+
+  loader.classList.add("loader--hidden");
+
+  loader.addEventListener("transitionend", () => {
+    document.body.removeChild(loader);
+  });
+});
+
+</script>
 </head>
 <style>
 .InvisibleBarrier {
@@ -27,7 +42,38 @@
 }
 </style>   
 <body>
+<div class="loaderIndex">
+<!-- Loading screen -->
+<div class="solar-system">
 
+<!-- Kepler-62 -->
+<div class="f-orbit orbit">
+  <div class="f"></div>
+
+<div class="e-orbit orbit">
+  <div class="e"></div>
+
+<div class="d-orbit orbit">
+  <div class="d"></div>
+
+<div class="c-orbit orbit">
+  <div class="c"></div>
+
+<div class="b-orbit orbit">
+  <div class="b"></div>
+
+  <div class="k62"></div>
+
+
+</div>
+  </div>
+    </div>
+      </div>
+        </div>
+          </div>
+            </div>
+              
+    
 <nav>
 
 <div class="logo-holder logo-1">
@@ -94,7 +140,7 @@
   </div>
 
   <div class="fade-in-about-me-text">
-    <p>My name is Janari, I'm a 16 year old astrophotographer from Estonia. I've been doing astro ever since I got my 6" newtonian at age of 14. </p>
+    <p>My name is Janari, I'm a 16-year-old astrophotographer from Estonia. I've been doing astro since I got my 6" newtonian at the age of 14. </p>
     <p>Join my journey of capturing Solar System objects, nebulae and galaxies!</p>
   </div>
 

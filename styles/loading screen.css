@@ -1,0 +1,196 @@
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: 1s ease-in; 
+}
+
+.loaderIndex {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: 0.3s ease-in; 
+}
+
+.loader--hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.solar-system {
+    width: 355px;
+    height: 355px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.orbit {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.2px solid #606060;
+    border-radius: 50%;
+} 
+
+.f-orbit {
+    width: 354px;
+    height: 354px;
+    animation: spin 16.5s linear infinite;
+}
+
+.e-orbit {
+    width: 238px;
+    height: 238px;
+    animation: spin 11s linear infinite;
+}
+
+.d-orbit {
+    width: 114px;
+    height: 114px;
+    animation: spin 5.5s linear infinite;
+}
+
+.c-orbit {
+    width: 103.2px;
+    height: 103.2px;
+    animation: spin 4.5s linear infinite;
+}
+
+.b-orbit {
+    width: 88px;
+    height: 88px;
+    animation: spin 3s linear infinite;
+}
+
+.f {
+    position: absolute;
+    top: -3px;
+    width: 5.07px;
+    height: 5.07px;
+    border-radius: 50%;
+    background-color: #b8a058;
+}
+
+.e {
+    position: absolute;
+    top: -3.5px;
+    width: 5.8px;
+    height: 5.8px;
+    border-radius: 50%;
+    background-color: #94b9be;
+}
+
+.d {
+    position: absolute;
+    top: -4.3px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #d9b142;
+}
+
+.c {
+    position: absolute;
+    top: -1.4px;
+    width: 1.95px;
+    height: 1.95px;
+    border-radius: 50%;
+    background-color: #9f9f9f;
+}
+
+.b {
+    position: absolute;
+    top: -3px;
+    width: 4.65px;
+    height: 4.65px;
+    border-radius: 50%;
+    background-color: #ff0000;
+}
+
+.k62 {
+    width: 55.8px;
+    height: 55.8px;
+    border-radius: 50%;
+    background-color: #ffb375;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@media only screen and (max-width: 1101px) {
+    .f-orbit {
+        width: 177px;
+        height: 177px;
+    }
+
+    .e-orbit {
+        width: 119px;
+        height: 119px;
+    }
+
+    .d-orbit {
+        width: 60px;
+        height: 60px;
+    }
+
+    .c-orbit {
+        width: 51.6px;
+        height: 51.6px;
+    }
+
+    .b-orbit {
+        width: 44px;
+        height: 44px;
+    }
+
+    .k62 {
+        width: 27.9px;
+        height: 27.9px;
+    }
+
+    .f {
+        top: -2px;
+        width: 2.55px;
+        height: 2.55px;
+    }
+
+    .e {
+        top: -2.2px;
+        width: 2.9px;
+        height: 2.9px;
+    }
+
+    .d {
+        top: -2.9px;
+        width: 3.5px;
+        height: 3.5px;
+    }
+
+    .c {
+        top: -1.5px;
+        width: 1.7px;
+        height: 1.7px;
+    }
+
+    .b {
+        top: -1.95px;
+        width: 2.4px;
+        height: 2.4px;
+    }
+}

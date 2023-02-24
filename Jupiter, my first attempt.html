@@ -10,8 +10,55 @@
   <script src="./nav.js" type="module"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="styles/picture page style.css">
-</head>    
+  <link rel="stylesheet" type="text/css" href="styles/loading screen.css">
+
+<script>
+  
+  window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
+
+  loader.classList.add("loader--hidden");
+
+  loader.addEventListener("transitionend", () => {
+    document.body.removeChild(loader);
+  });
+});
+
+</script>
+</head>  
 <body>
+
+<div class="loader">
+<!-- Loading screen -->
+<div class="solar-system">
+
+<!-- Kepler-62 -->
+<div class="f-orbit orbit">
+  <div class="f"></div>
+
+<div class="e-orbit orbit">
+  <div class="e"></div>
+
+<div class="d-orbit orbit">
+  <div class="d"></div>
+
+<div class="c-orbit orbit">
+  <div class="c"></div>
+
+<div class="b-orbit orbit">
+  <div class="b"></div>
+
+  <div class="k62"></div>
+
+
+</div>
+  </div>
+    </div>
+      </div>
+        </div>
+          </div>
+            </div>
+              
 
 <nav>
 
@@ -59,10 +106,10 @@
     <a><img src="solar system pictures/Jupiter 2021.png"></a>
 
 <div class="ImageDescription">
-    It was a real challenge taking this image. Year 2021 I didn't have my tracking mount, so I had to manually track the planet with my old EQ3-2 mount.
-    I used my DSLR and eyepiece projection method to capture the planet. I took a couple minute long video, stacked the video, sharpened it and changed brightness.
+    It was a real challenge taking this image. Year 2021 I didn't have my tracking mount, so I had to track the planet manually with my old EQ3-2 mount.
+    I used my DSLR and eyepiece projection method to capture the planet. I took a couple-minute long video, stacked it, sharpened it and changed the brightness.
 
-    <p>Also you can see 3 of the Jupiter's moons: Europa (left), Ganymede (right), Io (far right)</p>
+    <p>Also, you can see 3 of Jupiter's moons: Europa (left), Ganymede (right), Io (far right).</p>
 </div>
 
   <div class="BulletPoints">

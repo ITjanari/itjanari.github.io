@@ -10,8 +10,55 @@
   <script src="./nav.js" type="module"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="styles/picture page style.css">
-</head>   
+  <link rel="stylesheet" type="text/css" href="styles/loading screen.css">
+
+<script>
+  
+  window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
+
+  loader.classList.add("loader--hidden");
+
+  loader.addEventListener("transitionend", () => {
+    document.body.removeChild(loader);
+  });
+});
+
+</script>
+</head>  
 <body>
+
+<div class="loader">
+<!-- Loading screen -->
+<div class="solar-system">
+
+<!-- Kepler-62 -->
+<div class="f-orbit orbit">
+  <div class="f"></div>
+
+<div class="e-orbit orbit">
+  <div class="e"></div>
+
+<div class="d-orbit orbit">
+  <div class="d"></div>
+
+<div class="c-orbit orbit">
+  <div class="c"></div>
+
+<div class="b-orbit orbit">
+  <div class="b"></div>
+
+  <div class="k62"></div>
+
+
+</div>
+  </div>
+    </div>
+      </div>
+        </div>
+          </div>
+            </div>
+              
 
 <nav>
 
@@ -60,7 +107,7 @@
     <a><img src="solar system pictures/Kuu_mosaiik_valmis.png"></a>
 
   <div class="ImageDescription">
-    I stiched together 3 different panels to get this mosaic. I used my ZWO guide camera.
+    I combined three different panels to get this mosaic. I used my ZWO guide camera.
   </div>
 
   <div class="BulletPoints">

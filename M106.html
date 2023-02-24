@@ -10,8 +10,55 @@
   <script src="./nav.js" type="module"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="styles/picture page style.css">
-</head>   
+  <link rel="stylesheet" type="text/css" href="styles/loading screen.css">
+
+<script>
+  
+  window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
+
+  loader.classList.add("loader--hidden");
+
+  loader.addEventListener("transitionend", () => {
+    document.body.removeChild(loader);
+  });
+});
+
+</script>
+</head>  
 <body>
+
+<div class="loader">
+<!-- Loading screen -->
+<div class="solar-system">
+
+<!-- Kepler-62 -->
+<div class="f-orbit orbit">
+  <div class="f"></div>
+
+<div class="e-orbit orbit">
+  <div class="e"></div>
+
+<div class="d-orbit orbit">
+  <div class="d"></div>
+
+<div class="c-orbit orbit">
+  <div class="c"></div>
+
+<div class="b-orbit orbit">
+  <div class="b"></div>
+
+  <div class="k62"></div>
+
+
+</div>
+  </div>
+    </div>
+      </div>
+        </div>
+          </div>
+            </div>
+             
 
 <nav>
 
@@ -60,8 +107,8 @@
     <a><img src="galaxy pictures/M106 28.01.2023.png"></a>
 
   <div class="ImageDescription">
-    I'm pretty happy with this image, but it still needs more integration time.
-    Messier 106 is located 24 million light-years away from Earth. It has an active nucleus that's quasar-like, with very hight surface brightness.
+    I'm pretty happy with this image, but it needs more integration time.
+    Messier 106 is located 24 million light-years away from Earth. It has a quasar-like active nucleus, and very hight surface brightness.
   </div>
 
   <div class="ExposureTime">
