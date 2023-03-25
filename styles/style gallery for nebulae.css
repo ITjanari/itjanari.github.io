@@ -190,27 +190,27 @@
 .textGallery {
   font-family: 'Work Sans', 'sans-serif';
   color: rgb(255, 255, 255);
-  text-align: center;
   width: 100%;
   text-transform: uppercase;
   font-weight: bold;
   word-wrap: normal;
-  padding-top: 60px;
   font-size: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
 }
   
   
 @media screen and (max-width: 560px) {
   .textGallery {
     font-size: 3.5em;
-    padding-top: 65px;
   }
 }
   
 @media screen and (max-width: 460px) {
   .textGallery {
     font-size: 3em;
-    padding-top: 65px;
   }
 
   .gallery img {
@@ -225,7 +225,6 @@
 @media screen and (max-width: 400px) {
   .textGallery {
     font-size: 3em;
-    padding-top: 75px;
   }
 
   .responsive {

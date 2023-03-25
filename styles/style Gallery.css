@@ -156,7 +156,7 @@
   background-repeat: no-repeat;
   background-position: center;
   min-width: 280px;
-  background-image: url("images/taust3.jpg");
+  background-image: url("images/m3 lucky imaging.png");
   height: 200px;
   border-radius: 0px;
   background-size: cover;
@@ -166,27 +166,27 @@
 .textGallery {
   font-family: 'Work Sans', 'sans-serif';
   color: rgb(255, 255, 255);
-  text-align: center;
   width: 100%;
   text-transform: uppercase;
   font-weight: bold;
   word-wrap: normal;
-  padding-top: 60px;
   font-size: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
 }
 
 
 @media screen and (max-width: 560px) {
   .textGallery {
     font-size: 3.5em;
-    padding-top: 65px;
   }
 }
 
 @media screen and (max-width: 460px) {
   .textGallery {
       font-size: 3em;
-      padding-top: 65px;
     }
 
   .border {
@@ -197,7 +197,6 @@
 @media screen and (max-width: 400px) {
   .textGallery {
       font-size: 2.15em;
-      padding-top: 75px;
   }
 
   .ImageGalleryText {
