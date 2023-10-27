@@ -68,7 +68,7 @@
 }
   
 .background-colorGallery {
-  min-height: 1100px;
+  min-height: 700px;
   background-color: rgb(13, 13, 13); 
   min-width: 280px;
   padding-top: 50px;
@@ -168,7 +168,7 @@
   }
 
   .background-colorGallery {
-    min-height: 2100px;
+    min-height: 1700px;
   }
 }
   
@@ -183,7 +183,7 @@
   }
 
   .background-colorGallery {
-    min-height: 1800px;
+    min-height: 1500px;
   }
 }
   
@@ -218,7 +218,7 @@
   }
 
   .background-colorGallery {
-    min-height: 1500px;
+    min-height: 1300px;
   }
 }
   
@@ -235,10 +235,6 @@
   .gallery img {
     height: 225px;
   }
-
-  .background-colorGallery {
-    min-height: 1500px;
-  }
 }
   
 @media screen and (max-width: 335px) {
@@ -249,10 +245,6 @@
 
   .gallery img {
     height: 175px;
-  }
-
-  .background-colorGallery {
-    min-height: 1300px;
   }
 }
 

@@ -1,6 +1,6 @@
-const navBtn = document.querySelector('#menu-btn');
+const navBtn = document.querySelector('#menu-btn'); // expands modible view
 const nav = document.querySelector('nav');
-const navLinks = document.querySelector('.nav-links');
+const navLinks = document.querySelector('.nav-links'); // ul
 
 navBtn.addEventListener('click', () => {
   navLinks.classList.add('activated');
@@ -15,3 +15,5 @@ document.querySelectorAll('.nav-link').forEach
     link.setAttribute('aria-current', 'page')
   }
 })
+
+

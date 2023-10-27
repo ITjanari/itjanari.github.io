@@ -19,7 +19,7 @@
 
   loader.classList.add("loader--hidden");
 
-  loader.addEventListener("transitionend", () => {
+  loader.addEventListener("transitioned", () => {
     document.body.removeChild(loader);
   });
 });
@@ -109,7 +109,7 @@
 
 <div class="GalleryTextContainer">
   <div class="ImageGalleryText">
-    Here are the objects sorted out by categories. !Nebulae categorie is empty for now!
+    Here are the objects sorted out by categories.
   </div>
 
 <div class="border"></div>
@@ -117,7 +117,7 @@
 
 <div class="containerThree">
 
-  <button onclick="document.location='Nebulae gallery.html'" class="button button1">...</button>
+  <button onclick="document.location='Nebulae gallery.html'" class="button button1">Nebulae</button>
   <button onclick="document.location='Galaxies gallery.html'" class="button button2">Galaxies</button>
   <button onclick="document.location='Star clusters gallery.html'" class="button button3">Star Clusters</button>
   <button onclick="document.location='Solar system gallery.html'" class="button button4">Solar System</button>

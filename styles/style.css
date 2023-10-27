@@ -33,10 +33,20 @@ nav {
   font-weight: bold;
   font-size: 4em;
 
+  transform: translateY(15px);
+  opacity: 0;
+  transition: all 1s ease-in-out;
+
+
   /* Tsentreerib vertikaalselt teksti */
   display: grid;
   place-items: center;
   line-height: 100%; /* Tähtis! */
+}
+
+.text.appear {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .text-two {
@@ -47,9 +57,20 @@ nav {
   line-height: 190%; /* Tähtis! Et tekst läheks uuele reale */
   word-break: break-word;
 
+  transform: translateY(10px);
+  opacity: 0;
+  transition: all 1s ease-in-out;
+  transition-property: transform, opacity;
+  transition-delay: 0.3s, 0s;
+
   /* Tsentreerib vertikaalselt teksti */
   display: grid;
   place-items: center;
+}
+
+.text-two.appear {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* astrojanari logo, home page */
@@ -276,6 +297,11 @@ li[role="none"],
   width: 50%;
 }
 
+.homePilt.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .aboutMeTextHome {
   font-family: 'Work Sans', 'sans-serif';
   color: rgba(245, 245, 245, 0.75);
@@ -285,8 +311,16 @@ li[role="none"],
   width: 42%;
   overflow: hidden;
 
-  /* Apply animation to this element */	
-  animation: slide-up 2s ease-out;
+  /* IntersectionObs Settings */
+  opacity: 0;
+  transform: translateY(15px);
+  transition: all 1s ease-in-out;
+}
+
+/* IntersectionObs Settings (appear) */
+.aboutMeTextHome.appear {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 @media only screen and (max-width: 882px) {
@@ -455,16 +489,16 @@ li[role="none"],
   }
 }
 
-.text-box {
+/* .text-box {
   animation: fade-in 4s;
-}
+} */
 
-.text-box-second {
+/* .text-box-second {
   animation: fade-in-second 5s;
-}
+} */
 
-/* Esilehe pealkiri, fade in */
-@keyframes fade-in {
+
+/* @keyframes fade-in {
   from {
     opacity: 0.2;
   }
@@ -474,7 +508,7 @@ li[role="none"],
   }
 }
 
-/* Esilehe pealkiri, fade in */
+
 @keyframes fade-in-second {
   from {
     opacity: 0.2;
@@ -483,27 +517,7 @@ li[role="none"],
   to {
     opacity: 1;
   }
-}
-
-/* "About me" pealkiri */
-.fade-in-about-me {
-  opacity: 0;
-  transition: opacity 1s ease-in;
-}
-
-.fade-in-about-me.appear {
-  opacity: 1;
-}
-
-/* "About me" tekst */
-.fade-in-about-me-text {
-  opacity: 0;
-  transition: opacity 2s ease-in;
-}
-
-.fade-in-about-me-text.appear {
-  opacity: 1;
-}
+} */
 
 .image-background-teleskoop2 {
   background-repeat: no-repeat;
@@ -511,5 +525,5 @@ li[role="none"],
   height: 700px;
   background-size: cover;
   background-image: url(images/teleskoop2.png); 
-  min-width: 280px
+  min-width: 280px;
 }

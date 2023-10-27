@@ -63,7 +63,7 @@
   
 .responsive {
   padding: 15px 30px;
-  float: left;
+  /* float: left; Soov rohkem pilte lisada, siis uncom.*/
   width: 33.3333334%; /* neli pilti reas=25%, kolm pilti reas=33.33% (33.3333334 x 3 = 100%), kaks pilti reas=50% */
 }
   
@@ -73,6 +73,8 @@
   min-width: 280px;
   padding-top: 50px;
   padding-bottom: 50px;
+  display: flex; /* delete (vt .responsive) */
+  justify-content: center; /* delete (vt .responsive) */
 }
   
 .background-colorGalleryStarClusters {
@@ -90,10 +92,10 @@
   }
 
   .gallery img {
-    height: 500px;
+    /* height: 500px; */
   }
   .background-colorGallery {
-    min-height: 1400px;
+    /* min-height: 1400px; */
   }
 }
   
@@ -104,11 +106,11 @@
   }
 
   .gallery img {
-    height: 450px;
+    /* height: 450px; */
   }
 
   .background-colorGallery {
-    min-height: 1200px;
+    /* min-height: 1200px; */
   }
 }
   
@@ -119,11 +121,11 @@
   }
 
   .gallery img {
-    height: 400px;
+    /* height: 400px; */
   }
 
   .background-colorGallery {
-    min-height: 1100px;
+    /* min-height: 1100px; */
   }
 }
   
@@ -138,7 +140,7 @@
   }
 
   .background-colorGallery {
-    min-height: 1000px;
+    /* min-height: 1000px; */
   }
 }
   
@@ -149,11 +151,11 @@
   }
 
   .gallery img {
-    height: 300px;
+    /* height: 300px; */
   }
 
   .background-colorGallery {
-    min-height: 1000px;
+    /* min-height: 1000px; */
   }
 }
   
@@ -164,11 +166,11 @@
   }
 
   .gallery img {
-    height: 400px;
+    /* height: 400px; */
   }
 
   .background-colorGallery {
-    min-height: 1700px;
+    /* min-height: 1700px; */
   }
 }
   
@@ -179,11 +181,11 @@
   }
 
   .gallery img {
-    height: 325px;
+    /* height: 325px; */
   }
 
   .background-colorGallery {
-    min-height: 1400px;
+    /* min-height: 1400px; */
   }
 }
   
@@ -218,7 +220,7 @@
   }
 
   .background-colorGallery {
-    min-height: 1100px;
+    /* min-height: 1100px; */
   }
 }
   
@@ -233,11 +235,11 @@
   }
 
   .gallery img {
-    height: 225px;
+    /* height: 225px; */
   }
 
   .background-colorGallery {
-    min-height: 1000px;
+    /* min-height: 1000px; */
   }
 }
   
@@ -252,7 +254,7 @@
   }
 
   .background-colorGallery {
-    min-height: 900px;
+    /* min-height: 900px; */
   }
 }
 
@@ -261,7 +263,7 @@
   background-repeat: no-repeat;
   background-position: center;
   min-width: 280px;
-  background-image: url("images/taust3.jpg");
+  background-image: url("images/M42.png");
   height: 200px;
   border-radius: 0px;
   background-size: cover;

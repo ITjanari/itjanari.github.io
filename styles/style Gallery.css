@@ -8,7 +8,7 @@
 .ImageGalleryText {
   font-family: 'Work Sans', 'sans-serif';
   color: rgba(245, 245, 245, 0.75);
-  text-align: left;
+  text-align: center;
   word-wrap: break-word;
   padding: 60px 50px 20px 50px;
   font-size: 1.3em;
@@ -39,11 +39,10 @@
   letter-spacing: 0.6px;
 }
 
-
 .button1 {
   background-color: rgb(249, 249, 249); 
   color: rgba(93, 61, 211, 0.970);
-  border: 3px solid rgba(255, 0, 0, 0.97);
+  border: 3px solid rgba(93, 61, 211, 0.970);
   font-family: 'Work Sans', 'sans-serif';
   text-transform: uppercase;
   font-weight: 650;
@@ -154,9 +153,8 @@
  .rectangle {
   width: 100%;
   background-repeat: no-repeat;
-  background-position: center;
   min-width: 280px;
-  background-image: url("images/m3 lucky imaging.png");
+  background-image: url("images/IC1318.png");
   height: 200px;
   border-radius: 0px;
   background-size: cover;
