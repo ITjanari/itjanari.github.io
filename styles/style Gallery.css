@@ -153,6 +153,7 @@
  .rectangle {
   width: 100%;
   background-repeat: no-repeat;
+  background-position: center;
   min-width: 280px;
   background-image: url("images/IC1318.png");
   height: 200px;
